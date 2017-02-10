@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIViewExt.h"
 
-@interface ViewController : UIViewController
+
+#import "ImageDetailViewController.h"
+
+@interface ViewController : UIViewController<ELCImagePickerControllerDelegate, UINavigationControllerDelegate,imageDelegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate>
 
 
 @end
